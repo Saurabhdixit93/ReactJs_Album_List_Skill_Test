@@ -1,0 +1,46 @@
+.albums-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .albums-list__header {
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .albums-list__title {
+    font-size: 24px;
+    color: #ff6b6b;
+  }
+  
+  .albums-list__add-btn {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .albums-list__add-btn:hover {
+    background-color: #ff6b6b;
+  }
+  
+  .albums-list__add-icon {
+    margin-right: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .albums-list {
+      padding: 10px;
+    }
+  
+    .albums-list__title {
+      font-size: 20px;
+    }
+  }

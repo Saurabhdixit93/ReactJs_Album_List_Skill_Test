@@ -1,0 +1,31 @@
+.footer {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-links a {
+    color: #333;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #000;
+  }
+  
+  .copy-right {
+    margin-top: 10px;
+  }
+  
+  .copy-icon {
+    margin-right: 5px;
+  }
+  
+  .copy-icon svg {
+    vertical-align: middle;
+  }
+  
+  .copy-right span {
+    vertical-align: middle;
+  }
